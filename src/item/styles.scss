@@ -1,0 +1,70 @@
+@import '@servicenow/sass-kit/host';
+
+
+.cardContainer{
+  width: 500px;
+  margin: 20px;
+
+}
+.result{
+  text-align: center;
+  margin: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+
+}
+.contentBody{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.loading{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.forma{
+  margin: 10px auto;
+  width: 100%;
+
+}
+.forma form{
+  width: 600px;
+  margin: auto;
+}
+.forma p{
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+
+}
+.forma div{
+  padding: 10px;
+}
+.forma {
+  button{
+  cursor: pointer;
+  font-size: 17px;
+  padding: 7px 14px;
+  margin: 13px auto;
+  background: #EE1D52;
+  color: white;
+    transition: all 0.2s ease-in;
+  border: none;
+    &:hover{
+      background: #69C9D0;
+    }
+}}
+.forma span{
+  width: 40%;
+  display: inline-block;
+}

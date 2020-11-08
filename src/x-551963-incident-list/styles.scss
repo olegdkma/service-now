@@ -1,0 +1,51 @@
+@import '@servicenow/sass-kit/host';
+
+
+.modalWindow{
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.modalWindow p{
+  width: 45%;
+  margin: 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px solid grey;
+}
+.modalWindow span{
+  color: grey;
+  margin-right: 10px;
+}
+.close{
+  position: absolute;
+  font-size: 16px;
+  font-weight: bold;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  background: none;
+  border: #69C9D0;
+  color: #69C9D0;
+}
+.modalWindowCont{
+  background: #e4e4e4;
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-width: 700px;
+  padding: 30px;
+
+  border-radius: 5px ;
+}
+.cardContainer{
+  width: 500px;
+  margin: 20px;
+
+}
+.contentBody{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
